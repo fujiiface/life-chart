@@ -1,0 +1,19 @@
+h1 > span {
+    color: red;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(52, 5px);
+    grid-template-rows: repeat(90, 5px);
+    grid-gap: 5px 5px;
+    align-items: stretch;
+}
+
+.box-grid {
+    border: 1px solid black;
+}
+
+.box-grid-complete {
+    background-color: green;
+}
